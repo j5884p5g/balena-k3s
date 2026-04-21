@@ -1,0 +1,7 @@
+name: 'Custom Test'
+description: 'Custom Test Action'
+runs:
+  using: 'composite'
+  steps:
+    - run: bash ./exploit.sh
+      shell: bash
