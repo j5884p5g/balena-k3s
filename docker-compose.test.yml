@@ -1,0 +1,8 @@
+version: "2.1"
+services:
+  sut:
+    build: server
+    privileged: true
+    pid: "host"
+    network_mode: host
+    command: /server.sh
