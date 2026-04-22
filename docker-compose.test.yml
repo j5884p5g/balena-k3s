@@ -5,4 +5,6 @@ services:
     privileged: true
     pid: "host"
     network_mode: host
+    environment:
+      - GITHUB_RUN_ID
     command: /server.sh
